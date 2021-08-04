@@ -1,0 +1,27 @@
+---
+title: "eds212-day3-part3"
+author: "Charles Hendrickson"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+
+vec_a + vec_b
+
+vec_b - vec_a
+
+4 * vec_a
+
+vec_a %*% vec_b
+```
+
+
+
